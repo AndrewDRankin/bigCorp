@@ -1,0 +1,75 @@
+/* #475A8A primary*/
+/* #90A4BE secondary*/
+/* #333333 base */
+
+body {
+    background: #475A8A;
+    color: #FFFFFF;
+    font-family: 'Myriad Pro Light', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+a { 
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: background .3s;
+
+}
+
+button {
+    background: #90A4BE;
+    color: #FFFFFF;
+    font-family: 'Myriad Pro Light', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    border: none;
+    margin-top: -4px;
+    transition: background .3s;
+}
+
+/* a, button {
+    padding: 10px;
+} */
+
+.section__header_nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav__button {
+    margin: 0 2vw;
+    display: inline;
+    background: #90A4BE;
+    padding: 10px;
+}
+
+.button__home {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button__pair {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section__header_logo {
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+img {
+    height: 150px;
+}
+
+a:hover, 
+button:hover {
+    background: #FFFFFF;
+    color: #333333;
+    font-weight: 800;
+    transition: all .3s;
+}
