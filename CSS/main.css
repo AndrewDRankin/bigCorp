@@ -8,13 +8,16 @@ body {
     font-family: 'Myriad Pro Light', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
+    min-width: 282px;
 }
 
 a { 
     text-decoration: none;
     color: #FFFFFF;
+    margin: -11px -10px 0px;
+    padding: 10px 10px;
     transition: background .3s;
-
+    
 }
 
 button {
@@ -24,13 +27,18 @@ button {
     font-weight: 400;
     font-size: 1.4rem;
     border: none;
-    margin-top: -4px;
+    margin: -11px -10px -11px;
+    padding: 8px 10px;
     transition: background .3s;
 }
 
-/* a, button {
-    padding: 10px;
-} */
+a:hover, 
+button:hover {
+    background: #FFFFFF;
+    color: #333333;
+    font-weight: 800;
+    transition: all .3s;
+}
 
 .section__header_nav {
     display: flex;
@@ -60,16 +68,25 @@ button {
     justify-content: space-around;
     background: #FFFFFF;
     padding: 20px;
+    /* width: 100vw; */
 }
 
 img {
     height: 150px;
 }
 
-a:hover, 
-button:hover {
-    background: #FFFFFF;
-    color: #333333;
-    font-weight: 800;
+.section__login {
+    position: absolute;
+    margin: 0 2vw;
+    transform: translate(70vw, 10px);
+    background: #90A4BE;
     transition: all .3s;
+}
+
+.section__login input {
+    display: block;
+    width: 18vw;
+    padding: 10px;
+    margin: 15px;
+    border: none;
 }

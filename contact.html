@@ -26,31 +26,52 @@
 
             <section class="section__header_nav">
                 
-                <div class="nav__button">
-                    <a href="index.html">
-                        Home
-                    </a>
+                <div class="button__home">
+                    <div class="nav__button">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </div>
                 </div>
 
-                <div class="nav__button">
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </div>
+                <div class="button__pair">
+                    <div class="nav__button">
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </div>
 
-                <div class="nav__button">
-                    <p>
-                        Login
-                    </p>
+                    <div class="nav__button">
+                        <button id="loginButton">
+                            Login
+                        </button>
+                    </div>
                 </div>
-
+                
             </section>
+
+            <section class="section__login" 
+                id="loginForm" 
+                style="display: none;">
+                <form action="POST"> 
+                    <input type="text" 
+                        name="username" 
+                        id="username">
+                    <input type="password" 
+                        name="password" 
+                        id="password">
+                    <!-- <button class="login__button">Submit</button> -->
+                </form>
+
+            </section>    
 
             <section class="section__header_logo">
 
-                <p>
-                    I am a logo
-                </p>
+                <div>
+                    <img class="logo" 
+                        src="assets/logo.png" 
+                        alt="Logo">
+                </div>
 
             </section>
 
